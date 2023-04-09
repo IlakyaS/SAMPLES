@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lamp</title>
+    <link rel="stylesheet" href="lamp.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <p>Nothing can dim the <br><span class="l" >LIGHT</span><BR> that shines from <br>WITHIN..</p>
+        </div>
+        <div class="img">
+            <img src="lampimg2.webp" id="lamp">
+        
+        <div>
+            <img src="tflash.png" id="flash" onclick="flashonoff() ">
+        </div>
+    </div>
+    </div>
+    <script>
+        var f= document.getElementById("flash");
+        function flashonoff(){
+            f.classList.toggle("click");
+        }
+    </script>
+</body>
+</html>
